@@ -1,0 +1,58 @@
+.carousel {
+  width: 100%;
+  height-max: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.cards-container {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(calc(-20px * var(--active-index)));
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  margin: 0 5px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  transform: scale(1);
+  border-radius: 5px;
+}
+
+.card.active {
+  transform: scale(1.1);
+}
+
+.card.day-0 {
+  background-color: #FF9AA2; /* Cor para Segunda-feira */
+}
+
+.card.day-1 {
+  background-color: #FFB7B2; /* Cor para Terça-feira */
+}
+
+.card.day-2 {
+  background-color: #FFDAC1; /* Cor para Quarta-feira */
+}
+
+.card.day-3 {
+  background-color: #E2F0CB; /* Cor para Quinta-feira */
+}
+
+.card.day-4 {
+  background-color: #B5EAD7; /* Cor para Sexta-feira */
+}
+
+.card.day-5 {
+  background-color: #C7CEEA; /* Cor para Sábado */
+}
+
+.card.day-6 {
+  background-color: #FFC3A0; /* Cor para Domingo */
+}

@@ -1,0 +1,19 @@
+ .hero-section {
+  background-image: url('../images/rustic.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Ajuste a altura conforme necessário */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 36px;
+  color: #fff;
+  /* Outros estilos de fonte e espaçamento conforme necessário */
+}

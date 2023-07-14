@@ -1,0 +1,83 @@
+.content-highlight {
+  padding: 24px;
+}
+
+.highlight-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.highlight-title {
+  font-size: 28px;
+  color: #7263E3;
+  margin-bottom: 12px;
+}
+
+.highlight-description {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+.highlight-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlight-card {
+  width: 512px;
+  height: 568px;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+.highlight-card:nth-child(1) {
+  background-image: url('../images/rock_rum.jpg');
+  background-size: cover;
+}
+
+.highlight-card:nth-child(2) {
+  background-image: url('../images/whiskey_riot.jpg');
+  background-size: cover;
+}
+
+.highlight-card:nth-child(3) {
+  background-image: url('../images/gin_symphony.jpg');
+  background-size: cover;
+}
+
+.card-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.card-description {
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.card-button {
+  background-color: #7263E3;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card-button:hover {
+  background-color: #574fad;
+}

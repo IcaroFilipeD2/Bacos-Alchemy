@@ -1,0 +1,39 @@
+.resource-section {
+  padding: 24px;
+}
+
+.resource-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adicionado para definir a distância entre os cards */
+}
+
+.resource-card {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(45deg, rgba(255, 215, 56, 0.8), rgba(255, 199, 66, 0.8), rgba(254, 34, 64, 0.8));
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resource-icon {
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.resource-title {
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 8px;
+  white-space: nowrap; /* Adicionado para evitar que o título quebre em várias linhas */
+  overflow: hidden; /* Adicionado para ocultar o conteúdo extra do título */
+  text-overflow: ellipsis; /* Adicionado para exibir "..." quando o título estiver truncado */
+}
+
+.resource-description {
+  font-size: 14px;
+  color: #666666;
+}
